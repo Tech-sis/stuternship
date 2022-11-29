@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #fafafa;
+}
+
+.header {
+	color: teal;
+	text-align: center;
+	font-family: cursive;
+	margin: 20px 20px;
+}
+
+.section {
+	margin: 36px 70px;
+	border: 1px solid teal;
+	padding: 12px;
+	/* background-color: red; */
+	border-radius: 10px;
+	color: black;
+	font-family: cursive;
+	text-align: center;
+}
+
+.innersec {
+	padding: 10px;
+	text-align: left;
+}
+
+.formgroup {
+	padding: 8px 0;
+}
+
+input {
+	padding: 4px;
+	border: 1px solid grey;
+	border-radius: 4px;
+	/* font-size: 12px; */
+}
+
+.span {
+	margin-left: 10px;
+}
+
+.login {
+	width: 100%;
+	background-color: teal;
+	border: 1px solid teal;
+	padding: 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.register {
+	width: 100%;
+	background-color: white;
+	
+	border: 1px solid teal;
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: teal;
+}
+
+.terms {
+	font-size: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
