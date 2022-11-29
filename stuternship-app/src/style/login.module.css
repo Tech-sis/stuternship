@@ -37,10 +37,14 @@ body {
 }
 
 input {
+	width: 100%;
 	padding: 4px;
 	border: 1px solid grey;
 	border-radius: 4px;
-	/* font-size: 12px; */
+}
+
+.checkbox {
+	width: 20px;
 }
 
 .span {
@@ -60,7 +64,7 @@ input {
 .register {
 	width: 100%;
 	background-color: white;
-	
+
 	border: 1px solid teal;
 	padding: 8px;
 	border-radius: 5px;

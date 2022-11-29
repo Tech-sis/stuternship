@@ -11,7 +11,6 @@ const login = () => {
 			<div className={styles.section}>
 				<h1>Login</h1>
 				<section className={styles.innersec}>
-
 					<form className={styles.form}>
 						<div className={styles.formgroup}>
 							<label htmlFor="email">Email</label>
@@ -22,7 +21,7 @@ const login = () => {
 							<input type="password" placeholder="********" />
 						</div>
 						<div className={styles.formgroup}>
-							<input type="checkbox" />
+							<input type="checkbox" className={styles.checkbox} />
 							<span className={styles.span}>Remember me</span>
 						</div>
 						<div>
