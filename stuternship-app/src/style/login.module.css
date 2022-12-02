@@ -64,7 +64,7 @@ input {
 .register {
 	width: 100%;
 	background-color: white;
-
+	color: teal !important;
 	border: 1px solid teal;
 	padding: 8px;
 	border-radius: 5px;

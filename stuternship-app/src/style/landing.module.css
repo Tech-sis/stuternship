@@ -1,0 +1,418 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background: black;
+	padding: 20px;
+}
+
+.header h1 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+}
+
+li {
+	list-style: none;
+}
+
+.getbtn {
+	background: teal;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.getbtn a {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.getbtn:hover {
+	background: black;
+	color: teal;
+}
+
+main {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+}
+
+/* .cover {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(255 0 150 / 64%));
+	z-index: 2;
+} */
+
+.coverbg {
+	/* width: 100%;
+	height: 100%; */
+	background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(255 0 150 / 64%)), url(../../public/cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	/* position: absolute; */
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content {
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+	text-align: center;
+	padding: 110px 30px;
+}
+
+.content h1 {
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+}
+
+.content p {
+	padding: 10px 0;
+	font-size: 20px;
+	color: white;
+}
+
+.buttons {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: teal;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	width: 100%;
+	background-color: teal;
+	color: white !important;
+}
+
+button:hover {
+	background-color: black;
+	color: teal;
+}
+
+.buttons a {
+	color: #fff !important;
+}
+
+.feature {
+	/* padding: 20px; */
+	margin: 50px 30px;
+	color: teal;
+}
+
+.feature h1 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.featureCard {
+	width: 100%;
+	margin: 20px 0;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.featureImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.featureContent {
+	padding: 20px;
+}
+
+.about {
+	padding: 20px;
+	background-color: teal;
+	color: #fff;
+}
+
+.about h1 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.about p {
+	font-size: 16px;
+}
+
+.aboutText {
+	padding: 20px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.member {
+	padding: 20px;
+	text-align: center;
+}
+
+.memberCard {
+	width: 100%;
+	margin: 20px 0;
+	background-color: white;
+	color: teal;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.memberImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.memberContent {
+	padding: 20px;
+}
+
+.memberIcon {
+	width: 10% !important;
+	height: 10% !important;
+	object-fit: cover;
+}
+
+.footer {
+	padding: 20px;
+	color: teal;
+	background-color: #fff;
+}
+
+.footerContent {
+	padding: 20px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.footerLinks {
+	padding: 20px;
+	text-align: center;
+}
+
+.footerLink {
+	padding: 10px;
+	color: teal !important;
+}
+
+.footerCopy {
+	padding: 20px;
+	text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+	.nav {
+		font-size: 14px;
+		justify-content: space-around;
+	}
+
+	.content {
+		padding: 110px 190px;
+	}
+
+	.feature {
+		margin: 50px 190px;
+	}
+
+	.featureCard {
+
+		width: 70%;
+		margin: 20px auto;
+	}
+
+	.featureImage {
+		height: 40%;
+	}
+
+	.feature .title {
+		text-align: center;
+	}
+
+	.about {
+		padding: 20px 120px;
+	}
+
+	.about h1 {
+		text-align: center;
+	}
+
+	.memberCard {
+		width: 70%;
+		margin: 20px auto;
+	}
+
+	.footerLinks {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 994px) {
+	.nav {
+		font-size: 24px;
+	}
+
+	.content {
+		padding: 110px 300px;
+	}
+
+	.feature {
+		margin: 50px 40px;
+	}
+
+	.featureDiv {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.featureCard {
+		width: 50%;
+		margin: 20px;
+	}
+
+	.featureImage {
+		height: 60%;
+	}
+
+	.feature .title {
+		text-align: center;
+	}
+
+	.about {
+		padding: 20px 40px;
+	}
+
+	.aboutText {
+		text-align: center;
+	}
+
+	.about h1 {
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.about p {
+		font-size: 24px;
+	}
+
+	.h2 {
+		font-size: 32px;
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.member {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.memberCard {
+		width: 50%;
+		margin: 20px;
+	}
+
+	.memberImage {
+		height: 70%;
+	}
+
+	.footer {
+		padding: 20px 40px;
+	}
+
+	.footerContent {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.footerLinks {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 1270px) {
+	.nav h1 {
+		font-size: 50px;
+	}
+	.content {
+		padding: 110px 300px;
+	}
+
+	.content h1 {
+		font-size: 75px;
+	}
+
+	.content p {
+		font-size: 36px;
+	}
+
+	button {
+		padding: 20px;
+		font-size: 22px;
+		width: 60%;
+	}
+
+	.feature h1 {
+		font-size: 50px;
+	}
+
+	.featureContent h2 {
+		font-size: 30px;
+	}
+
+	.featureContent p {
+		font-size: 20px;
+	}
+
+	.about h1 {
+		font-size: 50px;
+	}
+	.memberContent h3 {
+		font-size: 30px;
+	}
+	.memberIcon {
+		width: 15% !important;
+		height: 15% !important;
+	}
+
+	.footerContent {
+		font-size: 20px;
+	}
+}
